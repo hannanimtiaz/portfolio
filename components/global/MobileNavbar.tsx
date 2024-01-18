@@ -37,12 +37,12 @@ export default function MobileNavbar() {
           <Link href="/">
             <span className="font-black text-xl flex items-center">
               <img
-                alt={"Mitesh Tagadiya"}
+                alt={"Hannan Imtiaz"}
                 className="mr-3"
                 src={`${process.env.NEXT_PUBLIC_BASE_URL}static/logos/logo_no_text.png`}
                 width="60"
               />
-              {"Mitesh Tagadiya".split("").map((letter, index) => {
+              {"Hannan Imtiaz".split("").map((letter, index) => {
                 return (
                   <span
                     key={index}

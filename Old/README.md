@@ -1,5 +1,4 @@
-
-## Mitesh Tagadiya
+## Hannan Imtiaz
 
 Portfolio app created by ReactJs
 
@@ -10,6 +9,7 @@ Portfolio app created by ReactJs
 </div>
 
 ### Demo
+
 [https://miteshtagadiya.js.org](https://miteshtagadiya.js.org/)
 
 ### `npm start`

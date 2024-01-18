@@ -11,13 +11,13 @@ function Navbar({ currentPage }) {
         <Link href="/">
           <span className="font-black text-xl flex items-center">
             <Image
-              alt="Mitesh Tagadiya"
+              alt="Hannan Imtiaz"
               className="mr-2 transform hover:rotate-360 hover:scale-75 transition-transform duration-500"
               src={`${process.env.NEXT_PUBLIC_BASE_URL}static/logos/logo_no_text.png`}
               width="60"
               height={60}
             />
-            {"Mitesh Tagadiya".split("").map((letter, index) => {
+            {"Hannan Imtiaz".split("").map((letter, index) => {
               return (
                 <span
                   key={index}

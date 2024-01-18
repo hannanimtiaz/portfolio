@@ -46,50 +46,6 @@ function Footer() {
             </div>
           );
         })}
-        <div className="text-center col-span-2 sm:col-auto sm:text-left pt-8 sm:mt-0 sm:pt-0 text-fun-gray border-t border-fun-pink-dark sm:border-0">
-          <p className="uppercase text-fun-gray text-sm font-bold">
-            Support My Work
-          </p>
-          <div className="space-y-2 mt-4 w-full flex items-center sm:items-start flex-col">
-            {footer.support.buymeacoffee !== "" && (
-              <div>
-                <a
-                  href={`https://buymeacoffee.com/${footer.support.buymeacoffee}`}
-                  target="_blank"
-                >
-                  <Image
-                    alt="buy-me-a-coffee"
-                    src={`${process.env.NEXT_PUBLIC_BASE_URL}static/misc/buy-me-a-coffee.svg`}
-                    className="h-12 mr-2 hover:opacity-80 opacity-100 transition-opacity"
-                    height={30}
-                    width={100}
-                    style={{ width: "100%" }}
-                  />
-                </a>
-              </div>
-            )}
-            {footer.support.paypal !== "" && (
-              <div>
-                <a
-                  href={`https://paypal.me/${footer.support.paypal}`}
-                  target="_blank"
-                >
-                  <Image
-                    alt="paypal"
-                    src={`${process.env.NEXT_PUBLIC_BASE_URL}static/misc/paypal.svg`}
-                    className="h-12 mr-2 hover:opacity-80 opacity-100 transition-opacity"
-                    height={30}
-                    width={100}
-                    style={{ width: "100%" }}
-                  />
-                </a>
-              </div>
-            )}
-            <p className="text-fun-gray text-xs pt-1">
-              {footer.support.message}
-            </p>
-          </div>
-        </div>
       </div>
       <div className="max-w-4xl w-full m-auto mt-8 pt-8 sm:mt-4 sm:pt-4 text-center text-fun-gray border-t border-fun-pink-dark">
         <div className="flex flex-col items-center justify-center ">
@@ -129,16 +85,16 @@ function Footer() {
               </span>
             </div>
           </div>
-          <div className="mt-2 text-xs ">
+          {/* <div className="mt-2 text-xs ">
             Made by{" "}
             <a
               href="mailto:miteshtagadiya@gmail.com"
               className="text-fun-gray-light font-medium"
             >
-              Mitesh Tagadiya
+              Hannan Imtiaz
             </a>
             . All rights reserved.
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

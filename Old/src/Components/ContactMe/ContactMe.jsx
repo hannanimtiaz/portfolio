@@ -25,7 +25,7 @@ class ContactMe extends Component {
               </label>
             </div>
             <form
-              action="https://formspree.io/miteshtagadiya@gmail.com"
+              action="https://formspree.io/m.hannan.imtiaz@gmail.com"
               method="POST"
             >
               <div className="form-group">

@@ -614,15 +614,13 @@ class Projects extends Component {
                 },
                 repository: {
                   type: "git",
-                  url:
-                    "git+https://github.com/miteshtagadiya/package-boilerplate.git",
+                  url: "git+https://github.com/miteshtagadiya/package-boilerplate.git",
                 },
                 keywords: ["boilerplate", "code", "for", "package"],
-                author: "Mitesh Tagadiya",
+                author: "Hannan Imtiaz",
                 license: "MIT",
                 bugs: {
-                  url:
-                    "https://github.com/miteshtagadiya/package-boilerplate/issues",
+                  url: "https://github.com/miteshtagadiya/package-boilerplate/issues",
                 },
                 homepage:
                   "https://github.com/miteshtagadiya/package-boilerplate#readme",

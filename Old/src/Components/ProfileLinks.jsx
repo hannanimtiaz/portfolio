@@ -46,7 +46,7 @@ class ProfileLinks extends Component {
       <div>
         <br />
         <label style={{ fontSize: 42, marginTop: 50 }}>
-          <Typist cursor={{ show: false }}>Mitesh Tagadiya</Typist>
+          <Typist cursor={{ show: false }}>Hannan Imtiaz</Typist>
         </label>
         <br />
         <label style={{ fontSize: 18, marginTop: 50 }}>
@@ -114,7 +114,7 @@ class ProfileLinks extends Component {
             this.props.windowWidth > 1200
               ? {
                   display: "auto",
-                  position: "relative"
+                  position: "relative",
                 }
               : { display: "none" }
           }

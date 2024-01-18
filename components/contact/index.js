@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import * as emailjs from "emailjs-com";
 
@@ -6,32 +6,32 @@ function Contact() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    message: ""
+    message: "",
   });
   const [submissionStatus, setSubmissionStatus] = useState(null);
 
-  const handleChange = e => {
+  const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = e => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     // Your form submission logic here
     if (submissionStatus !== "success") {
       const { name, email, message } = formData;
       const templateParams = {
         from_name: `${name} - ${email} )`,
-        to_name: "Mitesh Tagadiya",
-        message: message
+        to_name: "Hannan Imtiaz",
+        message: message,
       };
       if (name !== "" && email !== "" && message !== "") {
         emailjs
           .send(
-            "service_kvhn0jx",
-            "template_znzqt4a",
+            "service_lf5gk09",
+            "template_50b67eq",
             templateParams,
-            "x_YkFgu1Toi1XYsGI"
+            "P_xb7Pro6no4lJHwM"
           )
           .then(
             () => {
@@ -39,13 +39,13 @@ function Contact() {
               setFormData({
                 name: "",
                 email: "",
-                message: ""
+                message: "",
               });
               setTimeout(() => {
                 setSubmissionStatus(null);
               }, [10000]);
             },
-            error => {
+            (error) => {
               setSubmissionStatus("error");
             }
           );
@@ -117,7 +117,7 @@ function Contact() {
                 borderColor: "#32c7ff",
                 borderWidth: 2,
                 color: "#32c7ff",
-                fontWeight: 700
+                fontWeight: 700,
               }}
               className="w-full flex justify-center bg-transparent border border-transparent rounded-md py-2 px-4 text-white font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
             >

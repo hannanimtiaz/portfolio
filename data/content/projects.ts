@@ -3,139 +3,121 @@ import { kebabCase } from "@/utils/utils";
 const projects = [
   {
     id: 0,
-    title: "Wasalt",
-    desc: "Find properties For Sale and Rent, The Platform offering reliable real estate brokerage services.",
-    img: `${process.env.NEXT_PUBLIC_BASE_URL}static/projects/wasalt.jpg`,
-    link: "https://wasalt.com/",
-    tags: ["React", "NextJS", "CSS", "Context", "Socket.io"]
-  },
-  {
-    id: 1,
-    title: "Etihaas",
-    desc: "Healthcare near you, World's first Digital Healthcare Marketplace! If you own a healthcare establishment, you can claim your business for free",
-    img: `${process.env.NEXT_PUBLIC_BASE_URL}static/projects/etihaas.jpg`,
-    link: "https://www.etihaas.com/",
+    title: "Breshna",
+    desc: "Breshna empowers users to create their own video games with no-code and at lightning speed..",
+    img: `${process.env.NEXT_PUBLIC_BASE_URL}static/projects/breshna.jpg`,
+    link: "https://breshna.io/",
     tags: [
       "React",
       "NextJS",
-      "Context",
-      "HTML",
-      "CSS",
+      "SCSS",
+      "Redux",
       "Javascript",
-      "AWS Cognito"
-    ]
+      "Leaflet",
+      "Material UI",
+      "ChartJS",
+      "ThreeJS",
+      "Mixpanel",
+    ],
+  },
+  {
+    id: 1,
+    title: "Blackmores",
+    desc: "Blackmores Limited is an Australian health supplements company founded in 1938 by naturopath Maurice Blackmore, when Blackmore opened the first health food shop in Australia in Brisbane.",
+    img: `${process.env.NEXT_PUBLIC_BASE_URL}static/projects/blackmores.png`,
+    link: "https://www.blackmores.com.au/",
+    tags: ["React", "HTML", "SASS", "Javascript"],
   },
   {
     id: 2,
-    title: "Equitidex",
-    desc: "Buy & Sell Digital Assets in minutes",
-    img: `${process.env.NEXT_PUBLIC_BASE_URL}static/projects/equitidex.jpg`,
-    link: "https://www.equitidex.com/",
-    tags: ["React", "CSS", "Javascript", "Redux", "Groomet", "Bulma"]
+    title: "The Swimstarter",
+    desc: "Structured swimming lessons to get your child to swim in 6 months. Progressive classes for young beginners.",
+    img: `${process.env.NEXT_PUBLIC_BASE_URL}static/projects/swimstarter.png`,
+    link: "https://www.theswimstarter.com/",
+    tags: [
+      "EJS",
+      "HTML",
+      "SASS",
+      "Javascript",
+      "NodeJS",
+      "ExpressJS",
+      "Animate",
+      "Bootsrap",
+    ],
   },
   {
     id: 3,
-    title: "Macwin Solar Energy",
-    desc: "Macwin Solar PV Module is the flagship company of Unique Sun Power LLP, which supplies solar panels used for green energy generation",
-    img: `${process.env.NEXT_PUBLIC_BASE_URL}static/projects/macwin.jpg`,
-    link: "https://macwinsolarenergy.com/",
-    tags: ["React", "TailwindCSS", "Javascript"]
+    title: "The Swimstarter Admin Panel",
+    desc: "An Admin Panel to manage Swim School Students",
+    img: `${process.env.NEXT_PUBLIC_BASE_URL}static/projects/swimstart-admin.png`,
+    tags: [
+      "EJS",
+      "HTML",
+      "SASS",
+      "Javascript",
+      "NodeJS",
+      "ExpressJS",
+      "Animate",
+      "Bootsrap",
+    ],
   },
   {
     id: 4,
-    title: "NewNex",
-    desc: "Newnex is the end-to-end platform for fundraising and investing in startups, co-investments and venture capital funds for GPs and LPs.",
-    img: `${process.env.NEXT_PUBLIC_BASE_URL}static/projects/newnex.jpg`,
-    link: "https://www.newnex.io/",
-    tags: ["React", "NextJs", "Javascript"]
+    title: "The Swimstarter App",
+    desc: "Swimstarter Mobile app for coaches and parents for both android and IOS",
+    img: `${process.env.NEXT_PUBLIC_BASE_URL}static/projects/swimstarter-app.png`,
+    link: "https://apps.apple.com/sg/app/the-swim-starter-app/id1643884651",
+    tags: ["React Native", "Redux", "Stripe", "Expo"],
   },
   {
     id: 5,
-    title: "AI Olympiad",
-    desc: "Students can take online quizzes to test their knowledge. Teachers can assign tests and assignments to students and the admin can manage both students and teachers.",
-    img: `${process.env.NEXT_PUBLIC_BASE_URL}static/projects/aiolymp.jpg`,
-    tags: ["React", "Javascript", "Redux", "HTML"]
+    title: "Sensuri Coffee",
+    desc: "Sensuri offers best coffee bean in Indonesia and Singapore named as Panama, Guatemala, Costa Rica and Colombia at wholesale rates.",
+    link: "https://www.sensuricoffee.com",
+    img: `${process.env.NEXT_PUBLIC_BASE_URL}static/projects/sensuri.png`,
+    tags: ["React", "Javascript", "Bootsrap", "PWA", "HTML"],
   },
   {
     id: 6,
-    title: "Banking Platform",
-    desc: "Banking Platform with multiple react apps for Landing app, Authentication app, Transaction app, Foundation app, and separate React apps for other banking operations in the Main app.",
-    img: `${process.env.NEXT_PUBLIC_BASE_URL}static/projects/banking.jpg`,
+    title: "Absord Learning Management System",
+    desc: "A learning management system built and distributed to multiple schools during the pandemic to help schools continue functioning.",
+    link: "http://lms.martonomily.com",
+    img: `${process.env.NEXT_PUBLIC_BASE_URL}static/projects/absorb.png`,
     tags: [
-      "React",
+      "NodeJS",
       "Javascript",
-      "Micro Frontend",
-      "Shared Components",
-      "Docker",
-      "Material UI"
-    ]
+      "ExpressJS",
+      "Bootstrap",
+      "Stripe",
+      "Dropzone",
+    ],
   },
   {
     id: 7,
-    title: "Shoppr",
-    desc: "Product is a Customer Science Platform that provides the often-missing holistic customer view to e-commerce sellers and empowers them to reach out to the right customers with the right product at right time.",
-    img: `${process.env.NEXT_PUBLIC_BASE_URL}static/projects/shoppr.jpg`,
-    link: "shoppr.ai",
+    title: "HapPhi",
+    desc: "HapPhi is a brand-able playground of microservices centered around the most sophisticated search, document management and channel chat tool the private sector has ever seen.",
+    img: `${process.env.NEXT_PUBLIC_BASE_URL}static/projects/happhi.png`,
+    link: "https://www.happhi.com",
     tags: [
-      "React",
+      "VueJS",
       "Javascript",
-      "Redux",
-      "Ant-Design",
-      "React Google Charts",
-      "ReCharts"
-    ]
+      "PWA",
+      "Vuex",
+      "Socket io",
+      "Stripe",
+      "ChartJS",
+      "NodeJS",
+      "AWS S3",
+    ],
   },
-  {
-    id: 8,
-    title: "Covid-19-Global-Dashboard",
-    desc: "COVID-19 Global | India - Get Real-time coronavirus updates for India and global. Analytics of all the affected countries with the number of confirmed, recovered, deaths, and active cases.",
-    img: `${process.env.NEXT_PUBLIC_BASE_URL}static/projects/covid19.jpg`,
-    link: "https://miteshtagadiya.github.io/Covid-19-Global-Dashboard/#/",
-    github: "https://github.com/miteshtagadiya/Covid-19-Global-Dashboard",
-    tags: ["React", "Javascript", "React Google Charts", "Node", "ReCharts"]
-  },
-  {
-    id: 9,
-    title: "Restaurant App",
-    desc: "The restaurant CRUD app is a sample project with CRUD operations built with ant-design, bootstrap4, and ReactJs.",
-    img: `${process.env.NEXT_PUBLIC_BASE_URL}static/projects/restaurant.jpg`,
-    link: "https://miteshtagadiya.github.io/restaurant-app/",
-    github: "https://github.com/miteshtagadiya/restaurant-app",
-    tags: ["React", "Javascript", "Bootstrap"]
-  },
-  {
-    id: 10,
-    title: "Would You Rather",
-    desc: "Project is a web app that lets a user play the “Would You Rather?” game. The game goes like this: A user is asked a question in the form: “Would you rather [option A] or [option B] ?”.",
-    img: `${process.env.NEXT_PUBLIC_BASE_URL}static/projects/wouldyou.jpg`,
-    link: "https://miteshtagadiya.github.io/would-you-rather/",
-    github: "https://github.com/miteshtagadiya/would-you-rather",
-    tags: ["React", "Javascript"]
-  },
-  {
-    id: 11,
-    title: "Favourite Location Tracker",
-    desc: "Project is a web app that lets a user make a list of favorite locations. Users can add a favorite location to the list by selecting a location from the map and adding the details of that location.",
-    img: `${process.env.NEXT_PUBLIC_BASE_URL}static/projects/favoritelocation.jpg`,
-    github: "https://github.com/miteshtagadiya/favorite-location-tracker",
-    tags: ["React", "Javascript", "Map"]
-  },
-  {
-    id: 12,
-    title: "Embedded-react-widget",
-    desc: "Embedded React Widget to deploy on your website.",
-    img: `${process.env.NEXT_PUBLIC_BASE_URL}static/projects/widget.jpg`,
-    github: "https://github.com/miteshtagadiya/embedded-react-widget",
-    tags: ["React", "Javascript"]
-  }
 ];
 
 export const allTags = [];
 
-projects.forEach(project => {
-  project.tags.forEach(tag => !allTags.includes(tag) && allTags.push(tag));
+projects.forEach((project) => {
+  project.tags.forEach((tag) => !allTags.includes(tag) && allTags.push(tag));
 });
 
-export const allKebabTags = allTags.map(tag => kebabCase(tag));
+export const allKebabTags = allTags.map((tag) => kebabCase(tag));
 
 export default projects;

@@ -25,7 +25,7 @@ type Footer = {
 export const routes: Route[] = [
   {
     title: "Home",
-    path: "/"
+    path: "/",
   },
   // {
   //   title: "Blog",
@@ -33,12 +33,12 @@ export const routes: Route[] = [
   // },
   {
     title: "Projects",
-    path: "/projects"
+    path: "/projects",
   },
   {
     title: "Contact",
-    path: "/contact"
-  }
+    path: "/contact",
+  },
 ];
 
 export const footer: Footer = {
@@ -49,7 +49,7 @@ export const footer: Footer = {
         {
           name: "Home",
           link: "/",
-          leavesWebsite: false
+          leavesWebsite: false,
         },
         // {
         //   name: "Blog",
@@ -59,54 +59,42 @@ export const footer: Footer = {
         {
           name: "Projects",
           link: "/projects",
-          leavesWebsite: false
+          leavesWebsite: false,
         },
         {
           name: "Contact",
           link: "/contact",
-          leavesWebsite: false
-        }
-      ]
+          leavesWebsite: false,
+        },
+      ],
     },
     {
       title: "Social",
       links: [
         {
           name: "GitHub",
-          link: "https://github.com/miteshtagadiya",
+          link: "https://github.com/hannanimtiaz",
           icon: `${process.env.NEXT_PUBLIC_BASE_URL}static/icons/github-f.svg`,
-          leavesWebsite: true
+          leavesWebsite: true,
         },
         {
           name: "LinkedIn",
-          link: "https://www.linkedin.com/in/mitesh-tagadiya-140420108",
+          link: "https://www.linkedin.com/in/hannan-imtiaz",
           icon: `${process.env.NEXT_PUBLIC_BASE_URL}static/icons/linkedin-f.svg`,
-          leavesWebsite: true
-        },
-        {
-          name: "StackOverflow",
-          link: "https://stackoverflow.com/users/6880229/mitesh7172",
-          icon: `${process.env.NEXT_PUBLIC_BASE_URL}static/icons/stackoverflow-f.svg`,
-          leavesWebsite: true
-        },
-        {
-          name: "NPM",
-          link: "https://www.npmjs.com/~miteshtagadiya",
-          icon: `${process.env.NEXT_PUBLIC_BASE_URL}static/icons/npm-f.svg`,
-          leavesWebsite: true
+          leavesWebsite: true,
         },
         {
           name: "Email",
           link: "mailto:miteshtagadiya@gmail.com",
           icon: `${process.env.NEXT_PUBLIC_BASE_URL}static/icons/mail-f.svg`,
-          leavesWebsite: true
-        }
-      ]
-    }
+          leavesWebsite: true,
+        },
+      ],
+    },
   ],
   support: {
     buymeacoffee: "miteshtagap",
     paypal: "miteshtagadiya",
-    message: "I appreciate your support very much! 💙"
-  }
+    message: "I appreciate your support very much! 💙",
+  },
 };

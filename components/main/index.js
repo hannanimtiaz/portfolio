@@ -8,7 +8,7 @@ function Main() {
     <div className="mt-20 space-y-32" id="main-section">
       <Projects />
       <Skills />
-      <Testimonials />
+      {/* <Testimonials /> */}
     </div>
   );
 }

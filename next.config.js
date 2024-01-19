@@ -6,8 +6,8 @@ module.exports = {
   //   trailingSlash: true,
   swcMinify: true,
   env: {
-    NEXT_PUBLIC_BASE_URL: "http://localhost:3000/",
-    // NEXT_PUBLIC_BASE_URL: "localhost:3000",
+    // NEXT_PUBLIC_BASE_URL: "http://localhost:3000/",
+    NEXT_PUBLIC_BASE_URL: "/",
   },
   images: {
     unoptimized: true,

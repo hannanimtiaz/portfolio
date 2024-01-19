@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     "hannan imtiaz",
     "fullstack",
     "react developer",
-    "reactjs freelancer",
+    "reactjs",
     "nextjs",
     "Node",
     "AWS",
@@ -20,15 +20,15 @@ export const metadata: Metadata = {
   description:
     "Experienced ReactJS developer adept in crafting dynamic web applications with Next.js with proven experience. Don't be shy, take a look at my projects.",
   alternates: {
-    canonical: "https://miteshtagadiya.js.org/",
+    canonical: "https://hannanimtiaz.com/",
   },
-  metadataBase: new URL("https://miteshtagadiya.js.org"),
+  metadataBase: new URL("https://hannanimtiaz.com"),
   openGraph: {
     title:
       "Hannan Imtiaz - Web Developer, React, Next, Node. I create.... stuff.",
     description:
       "Experienced ReactJS developer adept in crafting dynamic web applications with Next.js with proven experience. Don't be shy, take a look at my projects.",
-    url: "https://miteshtagadiya.js.org",
+    url: "https://hannanimtiaz.com",
     siteName: "Hannan Imtiaz",
     locale: "en_US",
     type: "website",
@@ -70,11 +70,11 @@ export const metadata: Metadata = {
   manifest: `${process.env.NEXT_PUBLIC_BASE_URL}static/favicon/site.webmanifest`,
   twitter: {
     card: "summary_large_image",
-    title: "Hannan Imtiaz - Web Developer, Designer and Creator.",
+    title: "Hannan Imtiaz - Web Developer, React, Next, Node.",
     description:
       "Experienced ReactJS developer adept in crafting dynamic web applications with Next.js and Tailwind CSS. Explore my portfolio for innovative projects and seamless user experiences.",
     images: {
-      url: "https://miteshtagadiya.js.org/static/misc/og.png",
+      url: "/static/misc/og.png",
       alt: "Hannan Imtiaz",
     },
   },

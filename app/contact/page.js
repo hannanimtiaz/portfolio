@@ -8,19 +8,19 @@ export const metadata = {
   description:
     "Let's collaborate! Reach out to discuss projects, opportunities, or just to say hello. I'm excited to connect and explore potential collaborations in the world of web development and beyond.",
   alternates: {
-    canonical: "https://miteshtagadiya.js.org/projects",
+    canonical: "https://hannanimtiaz.com/projects",
   },
   openGraph: {
     title: "Get in Touch - Connect with Me - Hannan Imtiaz",
     description:
       "Let's collaborate! Reach out to discuss projects, opportunities, or just to say hello. I'm excited to connect and explore potential collaborations in the world of web development and beyond.",
-    url: "https://miteshtagadiya.js.org/projects",
+    url: "https://hannanimtiaz.com/projects",
   },
   twitter: {
     title: "Get in Touch - Connect with Me - Hannan Imtiaz",
     description:
       "Let's collaborate! Reach out to discuss projects, opportunities, or just to say hello. I'm excited to connect and explore potential collaborations in the world of web development and beyond.",
-    url: "https://miteshtagadiya.js.org/projects",
+    url: "https://hannanimtiaz.com/projects",
   },
 };
 

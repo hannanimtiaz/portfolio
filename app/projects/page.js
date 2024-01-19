@@ -9,19 +9,19 @@ export const metadata = {
   description:
     "I love coding using tools like React, NextJS, Tailwind, and many more! Here are some of my favorite projects.",
   alternates: {
-    canonical: "https://miteshtagadiya.js.org/projects",
+    canonical: "https://hannanimtiaz.com/projects",
   },
   openGraph: {
     title: "Projects - Hannan Imtiaz",
     description:
       "I love coding using tools like React, NextJS, Tailwind, and many more! Here are some of my favorite projects.",
-    url: "https://miteshtagadiya.js.org/projects",
+    url: "https://hannanimtiaz.com/projects",
   },
   twitter: {
     title: "Projects - Hannan Imtiaz",
     description:
       "I love coding using tools like React, NextJS, Tailwind, and many more! Here are some of my favorite projects.",
-    url: "https://miteshtagadiya.js.org/projects",
+    url: "https://hannanimtiaz.com/projects",
   },
 };
 
